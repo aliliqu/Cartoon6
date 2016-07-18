@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zz.cartton.hz.cartoon.MainCartoon">
+    <FrameLayout
+        android:id="@+id/main_FL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">   </FrameLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/main_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        ></android.support.v4.view.ViewPager>
+
+
+    <RadioGroup
+        android:id="@+id/main_activity_RG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="#F2F2F2"
+        >
+
+        <RadioButton
+            android:id="@+id/main_home_RB"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawableTop="@drawable/main_bottom_menu_color"
+            android:button="@null"
+            android:text="首页"
+            android:textSize="16sp"/>
+
+        <RadioButton
+            android:id="@+id/main_everyday_RB"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawableTop="@drawable/main_every_menu"
+            android:button="@null"
+            android:text="日常"
+            android:textSize="16sp"/>
+        <RadioButton
+            android:id="@+id/main_find_RB"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawableTop="@drawable/main_find_menu"
+            android:button="@null"
+            android:text="找漫画"
+            android:textSize="16sp"/>
+        <RadioButton
+            android:id="@+id/main_mine_RB"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawableTop="@drawable/main_mine_menu"
+            android:button="@null"
+            android:text="我的"
+            android:textSize="16sp"/>
+    </RadioGroup>
+
+</RelativeLayout>
