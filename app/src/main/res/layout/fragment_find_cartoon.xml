@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 android:gravity="center"
-    tools:context="com.zz.cartton.hz.cartoon.fragment.FindCartoonFragment">
+    tools:context=".fragment_find.FindCartoonFragment">
 
     <TextView
         android:id="@+id/find_cartoon_fragment_tv"

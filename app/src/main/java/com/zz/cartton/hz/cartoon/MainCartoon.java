@@ -9,10 +9,10 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
-import com.zz.cartton.hz.cartoon.fragment.EverydayFragement;
-import com.zz.cartton.hz.cartoon.fragment.FindCartoonFragment;
-import com.zz.cartton.hz.cartoon.fragment.HomePageFragment;
-import com.zz.cartton.hz.cartoon.fragment.MineFragment;
+import com.zz.cartton.hz.cartoon.fragment_everyday.EverydayFragement;
+import com.zz.cartton.hz.cartoon.fragment_find.FindCartoonFragment;
+import com.zz.cartton.hz.cartoon.fragment_home.HomePageFragment;
+import com.zz.cartton.hz.cartoon.fragment_mine.MineFragment;
 import com.zz.cartton.hz.cartoon.utils.MLog;
 
 public class MainCartoon extends AppCompatActivity implements RadioGroup.OnCheckedChangeListener {

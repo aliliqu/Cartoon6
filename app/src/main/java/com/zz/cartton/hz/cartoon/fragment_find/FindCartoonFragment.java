@@ -1,4 +1,4 @@
-package com.zz.cartton.hz.cartoon.fragment;
+package com.zz.cartton.hz.cartoon.fragment_find;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -10,13 +10,14 @@ import android.view.ViewGroup;
 import com.zz.cartton.hz.cartoon.R;
 
 /**
- * 首页
+ *查找漫画
  * */
-public class HomePageFragment extends Fragment {
+public class FindCartoonFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view=inflater.inflate(R.layout.fragment_home_page,null);
+        View view=inflater.inflate(R.layout.fragment_find_cartoon,null);
+
         return view;
     }
 }

@@ -1,4 +1,4 @@
-package com.zz.cartton.hz.cartoon.fragment;
+package com.zz.cartton.hz.cartoon.fragment_home;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -6,25 +6,17 @@ import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import com.zz.cartton.hz.cartoon.R;
 
 /**
- * 日常
+ * 首页
  * */
-public class EverydayFragement extends Fragment {
-
-    private TextView EverydayTV;
-
+public class HomePageFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-       View view=inflater.inflate(R.layout.fragment_everyday,null);
-//        EverydayTV= (TextView) view.findViewById(R.id.everyday_fragment_tv);
-
-
-
+        View view=inflater.inflate(R.layout.fragment_home_page,null);
         return view;
     }
 }

@@ -1,4 +1,4 @@
-package com.zz.cartton.hz.cartoon.fragment;
+package com.zz.cartton.hz.cartoon.fragment_mine;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -10,14 +10,16 @@ import android.view.ViewGroup;
 import com.zz.cartton.hz.cartoon.R;
 
 /**
- *查找漫画
+ *
+ * 我的
+ *
  * */
-public class FindCartoonFragment extends Fragment {
+
+public class MineFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view=inflater.inflate(R.layout.fragment_find_cartoon,null);
-
+        View view=inflater.inflate(R.layout.fragment_mine,null);
         return view;
     }
 }
